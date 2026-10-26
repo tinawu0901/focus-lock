@@ -1,0 +1,9 @@
+{
+  "name": "每日聽力",
+  "profile": "雅思聽力",
+  "steps": [
+    {"name": "做題", "minutes": 10, "goal": "完成一篇聽力題目"},
+    {"name": "檢討", "minutes": 15, "goal": "檢查錯題並整理沒聽懂的句子"}
+  ],
+  "daily_time": "08:00"
+}

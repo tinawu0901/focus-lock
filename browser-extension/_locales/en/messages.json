@@ -1,0 +1,11 @@
+{
+  "title": {"message": "Focus Lock Website Guard"},
+  "reconnect": {"message": "Reconnect"},
+  "connected": {"message": "Local bridge connected"},
+  "disconnected": {"message": "Disconnected: install the local bridge"},
+  "restriction": {"message": "Website restrictions: "},
+  "enabled": {"message": "On"},
+  "disabled": {"message": "Off"},
+  "blockedHeading": {"message": "Return to your learning site"},
+  "blockedMessage": {"message": "Focus Lock: this URL is not allowed for this session. Return to your learning site, or pause / use emergency unlock in the timer."}
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Writing Task 1",
+  "profile": "雅思作文Task-1",
+  "steps": [
+    {"name": "複習", "minutes": 30, "goal": "整理圖表架構、overview 與比較句"},
+    {"name": "寫作", "minutes": 30, "goal": "完成一篇作文初稿"},
+    {"name": "檢討", "minutes": 30, "goal": "修正時態、資料比較與段落結構"}
+  ],
+  "daily_time": ""
+}

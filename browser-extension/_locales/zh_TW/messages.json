@@ -1,0 +1,11 @@
+{
+  "title": {"message": "Focus Lock 網站限制"},
+  "reconnect": {"message": "重新連線"},
+  "connected": {"message": "本機橋接已連線"},
+  "disconnected": {"message": "未連線：請安裝本機橋接"},
+  "restriction": {"message": "網站限制："},
+  "enabled": {"message": "已啟用"},
+  "disabled": {"message": "未啟用"},
+  "blockedHeading": {"message": "回到這次學習的網站"},
+  "blockedMessage": {"message": "Focus Lock：這個網址不在本次允許清單。請返回學習網站，或在計時器暫停／緊急解鎖。"}
+}

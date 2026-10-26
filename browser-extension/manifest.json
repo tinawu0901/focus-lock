@@ -1,0 +1,50 @@
+{
+  "manifest_version": 3,
+  "name": "Focus Lock Website Guard",
+  "version": "0.3.1",
+  "default_locale": "en",
+  "minimum_chrome_version": "120",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA8TH8uPH0SCzI/Kt/ii2rvPLr+OW3JnHwcdU+I1OwhIhPCi7cgwIIpggD2qau1Qhfyg/dP2JoPBhJV/ZYhzYQnVjbB7tr1euAcTdQfAjzt5Du/XYj6jkH5Uws8yJTjUNfrG6Bxh3jQVO82lJW8sOX3beNUMDlguB3NFZnTLZ+1L/Nvni0NIumTvszNvhMw7uK/cr6rHUHEVwSzO37VwAStuP2fRdLteuvuBXuaiQVhZahSprYqIdL9OxXC+uEpequKhV9T8oo4kgpxxERA/cUQ1XYp+vKFxU4f9cj/OKN4JqoyGy2Ohe6U+Vfv/YkQn2KySHmgicaUzWp+7NA4sblBQIDAQAB",
+  "permissions": [
+    "nativeMessaging",
+    "declarativeNetRequest",
+    "storage",
+    "tabs",
+    "scripting",
+    "alarms"
+  ],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": [
+        "rules.js",
+        "content.js"
+      ],
+      "run_at": "document_start"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "blocked.html"
+      ],
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ]
+    }
+  ]
+}
